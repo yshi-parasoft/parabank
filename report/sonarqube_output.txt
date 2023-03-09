@@ -1,0 +1,356 @@
+INFO: Scanner configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\lib\sonar-scanner-4.7.0.2747-windows\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\sonar-project.properties
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+INFO: Windows 10 10.0 amd64
+INFO: User cache: C:\Users\mthomas\.sonar\cache
+INFO: Scanner configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\lib\sonar-scanner-4.7.0.2747-windows\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\sonar-project.properties
+INFO: Analyzing on SonarQube server 9.5.0.56709
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=176ms
+INFO: Server id: 147B411E-AYJG3siNGFX2pzZqlelj
+INFO: User cache: C:\Users\mthomas\.sonar\cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=96ms
+INFO: Load/download plugins (done) | time=1933ms
+INFO: Loaded core extensions: developer-scanner
+INFO: Process project properties
+INFO: Process project properties (done) | time=8ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=1ms
+INFO: Project key: parabank
+INFO: Base dir: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank
+INFO: Working dir: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork
+INFO: Load project settings for component key: 'parabank'
+INFO: Load project settings for component key: 'parabank' (done) | time=132ms
+INFO: Load project branches
+INFO: Load project branches (done) | time=18ms
+INFO: Load project pull requests
+INFO: Load project pull requests (done) | time=16ms
+INFO: Load branch configuration
+INFO: Load branch configuration (done) | time=1ms
+WARN: SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=951ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=15693ms
+INFO: Load analysis cache
+INFO: Load analysis cache (404) | time=21ms
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=177ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 135 files indexed
+INFO: Quality profile for java: Parasoft Jtest
+INFO: ------------- Run sensors on module parabank
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=22ms
+INFO: Sensor JavaSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+INFO: JavaClasspath initialization (done) | time=5ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=1ms
+INFO: The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+INFO: Server-side caching is enabled. The Java analyzer was able to leverage cached data from previous analyses for 0 out of 135 files. These files will not be parsed.
+INFO: Using ECJ batch to parse 135 Main java source files with batch size 425 KB.
+INFO: Starting batch processing.
+INFO: 100% analyzed
+INFO: Batch processing: Done.
+INFO: Did not optimize analysis for any files, performed a full analysis for all 135 files.
+WARN: Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+WARN: Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+INFO: No "Test" source files to scan.
+INFO: No "Generated" source files to scan.
+INFO: Sensor JavaSensor [java] (done) | time=2356ms
+INFO: Sensor C# Project Type Information [csharp]
+INFO: Sensor C# Project Type Information [csharp] (done) | time=1ms
+INFO: Sensor C# Analysis Log [csharp]
+INFO: Sensor C# Analysis Log [csharp] (done) | time=13ms
+INFO: Sensor C# Properties [csharp]
+INFO: Sensor C# Properties [csharp] (done) | time=0ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\target\surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=1ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=2ms
+INFO: Sensor Text Sensor [text]
+INFO: 135 source files to be analyzed
+INFO: 135/135 source files have been analyzed
+INFO: Sensor Text Sensor [text] (done) | time=3ms
+INFO: Sensor VB.NET Project Type Information [vbnet]
+INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+INFO: Sensor VB.NET Analysis Log [vbnet]
+INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=20ms
+INFO: Sensor VB.NET Properties [vbnet]
+INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+INFO: Sensor CSS Rules [javascript]
+INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+INFO: Sensor CSS Rules [javascript] (done) | time=0ms
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+INFO: javasecurity:S5131 is not activated in quality profile: skipping execution of thymeleaf sensor.
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=0ms
+INFO: Sensor Serverless configuration file sensor [security]
+INFO: 0 Serverless function entries were found in the project
+INFO: 0 Serverless function handlers were kept as entrypoints
+INFO: Sensor Serverless configuration file sensor [security] (done) | time=4ms
+INFO: Sensor AWS SAM template file sensor [security]
+INFO: Sensor AWS SAM template file sensor [security] (done) | time=0ms
+INFO: Sensor javabugs [dbd]
+INFO: Reading IR files from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ir\java
+INFO: No IR files have been included for analysis.
+INFO: Sensor javabugs [dbd] (done) | time=1ms
+INFO: Sensor JavaSecuritySensor [security]
+INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+INFO: Sensor JavaSecuritySensor [security] (done) | time=0ms
+INFO: Sensor CSharpSecuritySensor [security]
+INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+INFO: Sensor PhpSecuritySensor [security]
+INFO: Reading type hierarchy from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ucfg2\php
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ucfg2\php
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor PhpSecuritySensor [security] (done) | time=3ms
+INFO: Sensor PythonSecuritySensor [security]
+INFO: Reading type hierarchy from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ucfg2\python
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ucfg2\python
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor PythonSecuritySensor [security] (done) | time=0ms
+INFO: Sensor JsSecuritySensor [security]
+INFO: Reading type hierarchy from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ucfg2\js
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\.scannerwork\ucfg2\js
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor JsSecuritySensor [security] (done) | time=1ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Analysis Warnings import [csharp]
+INFO: Sensor Analysis Warnings import [csharp] (done) | time=1ms
+INFO: Sensor Findings for Parasoft Jtest [parasoft]
+WARN: Can not get IPreferences for:parallel.preferences.id
+INFO: Service initialization
+INFO: Parsing XML report: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\parabank\report\report.xml
+INFO: Diagnostics mode is OFF.
+INFO: Collected location with finding(s): Book.java
+INFO: Collected location with finding(s): BookStoreDB.java
+INFO: Collected location with finding(s): BookStoreMemoryDB.java
+INFO: Collected location with finding(s): CartManager.java
+INFO: Collected location with finding(s): CartTimer.java
+INFO: Collected location with finding(s): DisplayOrder.java
+INFO: Collected location with finding(s): Item.java
+INFO: Collected location with finding(s): ItemNotFoundException.java
+INFO: Collected location with finding(s): Order.java
+INFO: Collected location with finding(s): SecureCartService.java
+INFO: Collected location with finding(s): SubmittedOrder.java
+INFO: Collected location with finding(s): TempBook.java
+INFO: Collected location with finding(s): ProductInfo.java
+INFO: Collected location with finding(s): AccountDao.java
+INFO: Collected location with finding(s): AdminDao.java
+INFO: Collected location with finding(s): CustomerDao.java
+INFO: Collected location with finding(s): NewsDao.java
+INFO: Collected location with finding(s): PositionDao.java
+INFO: Collected location with finding(s): TransactionDao.java
+INFO: Collected location with finding(s): DynamicDataInserter.java
+INFO: Collected location with finding(s): News.java
+INFO: Collected location with finding(s): TransactionCriteria.java
+INFO: Collected location with finding(s): AdminParameters.java
+INFO: Collected location with finding(s): BankManager.java
+INFO: Collected location with finding(s): LoanProvider.java
+INFO: Collected location with finding(s): NewsManager.java
+INFO: Collected location with finding(s): AbstractLoanProcessor.java
+INFO: Collected location with finding(s): AvailableFundsLoanProcessor.java
+INFO: Collected location with finding(s): CombinedLoanProcessor.java
+INFO: Collected location with finding(s): ConfigurableLoanProvider.java
+INFO: Collected location with finding(s): DownPaymentLoanProcessor.java
+INFO: Collected location with finding(s): LoanProviderMapAware.java
+INFO: Collected location with finding(s): NewsManagerImpl.java
+INFO: Collected location with finding(s): LoanRequestFactory.java
+INFO: Collected location with finding(s): LoanResponseBuilder.java
+INFO: Collected location with finding(s): LocalLoanProvider.java
+INFO: Collected location with finding(s): AdminManagerAware.java
+INFO: Collected location with finding(s): BankManagerAware.java
+INFO: Collected location with finding(s): CustomerConstants.java
+INFO: Collected location with finding(s): LoanProcessorAware.java
+INFO: Collected location with finding(s): LoanProcessorServiceImpl.java
+INFO: Collected location with finding(s): LoanProviderNameAware.java
+INFO: Collected location with finding(s): ParaBankServiceConstants.java
+INFO: Collected location with finding(s): ParaBankServiceException.java
+INFO: Collected location with finding(s): Constants.java
+INFO: Collected location with finding(s): HostPort.java
+INFO: Collected location with finding(s): IAccessModeControllerAware.java
+INFO: Collected location with finding(s): UserSession.java
+INFO: Collected location with finding(s): AdminForm.java
+INFO: Collected location with finding(s): BillPayForm.java
+INFO: Collected location with finding(s): ContactForm.java
+INFO: Collected location with finding(s): CustomerForm.java
+INFO: Collected location with finding(s): FindTransactionForm.java
+INFO: Collected location with finding(s): LookupForm.java
+INFO: Collected location with finding(s): OpenAccountForm.java
+INFO: Collected location with finding(s): RequestLoanForm.java
+INFO: Collected location with finding(s): TransferForm.java
+INFO: 7266 findings imported
+INFO: No findings for: TransactionController.java
+INFO: No findings for: PayeeValidator.java
+INFO: No findings for: JdbcCustomerDao.java
+INFO: No findings for: SampleJdbcDynamicDataInserter.java
+INFO: No findings for: JdbcAdminDao.java
+INFO: No findings for: BillPayFormValidator.java
+INFO: No findings for: NewsController.java
+INFO: No findings for: JdbcAccountDao.java
+INFO: No findings for: AbstractBaseAdminController.java
+INFO: No findings for: SecureJdbcTransactionDao.java
+INFO: No findings for: Payee.java
+INFO: No findings for: OpenAccountController.java
+INFO: No findings for: Util.java
+INFO: Created: 110 issues in: LoanResponseBuilder.java
+INFO: No findings for: IBillPayService.java
+INFO: No findings for: DatabaseController.java
+INFO: No findings for: LoanResponse.java
+INFO: Created: 29 issues in: CustomerDao.java
+INFO: No findings for: Customer.java
+INFO: Created: 72 issues in: RequestLoanForm.java
+INFO: Created: 42 issues in: LoanProviderMapAware.java
+INFO: No findings for: RegisterCustomerController.java
+INFO: Created: 30 issues in: DownPaymentLoanProcessor.java
+INFO: Created: 61 issues in: LocalLoanProvider.java
+INFO: Created: 42 issues in: LoanRequestFactory.java
+INFO: No findings for: BillPayResult.java
+INFO: Created: 85 issues in: LookupForm.java
+INFO: No findings for: InitializeDBController.java
+INFO: No findings for: JmsListenerController.java
+INFO: No findings for: ChangeConnectionController.java
+INFO: No findings for: ParaBankService.java
+INFO: Created: 50 issues in: NewsManagerImpl.java
+INFO: No findings for: CustomerFormValidator.java
+INFO: No findings for: BillPayController.java
+INFO: No findings for: AdminFormValidator.java
+INFO: Created: 87 issues in: BillPayForm.java
+INFO: No findings for: LoanRequest.java
+INFO: No findings for: ViewUtil.java
+INFO: No findings for: FindTransactionController.java
+INFO: No findings for: LoginController.java
+INFO: Created: 116 issues in: Constants.java
+INFO: No findings for: TransferController.java
+INFO: Created: 30 issues in: CombinedLoanProcessor.java
+INFO: No findings for: AbstractValidatingBankController.java
+INFO: No findings for: JdbcSequenceDao.java
+INFO: Created: 53 issues in: AdminParameters.java
+INFO: Created: 85 issues in: LoanProcessorServiceImpl.java
+INFO: No findings for: AccountActivityController.java
+INFO: No findings for: SessionParam.java
+INFO: No findings for: TransferFormValidator.java
+INFO: No findings for: StockDataInserter.java
+INFO: No findings for: LoginInterceptor.java
+INFO: No findings for: HistoryPoint.java
+INFO: No findings for: DateTimeAdapter.java
+INFO: No findings for: ServerBean.java
+INFO: No findings for: JdbcNewsDao.java
+INFO: Created: 28 issues in: AdminManagerAware.java
+INFO: Created: 73 issues in: CustomerConstants.java
+INFO: No findings for: SecureJdbcCustomerDao.java
+INFO: Created: 212 issues in: AdminForm.java
+INFO: No findings for: AbstractBankController.java
+INFO: No findings for: CustomWadlGenerator.java
+INFO: Created: 58 issues in: CustomerForm.java
+INFO: Created: 42 issues in: UserSession.java
+INFO: No findings for: ParaBankServiceConfiguration.java
+INFO: No findings for: Address.java
+INFO: No findings for: CustomerValidator.java
+INFO: No findings for: ContactController.java
+INFO: No findings for: TransactionCriteriaValidator.java
+INFO: Created: 15 issues in: LoanProvider.java
+INFO: No findings for: AdminManager.java
+INFO: No findings for: SessionParamArgumentResolver.java
+INFO: Created: 58 issues in: OpenAccountForm.java
+INFO: No findings for: Transactions.java
+INFO: No findings for: package-info.java
+INFO: Created: 35 issues in: LoanProcessorAware.java
+INFO: Created: 118 issues in: HostPort.java
+INFO: No findings for: FindTransactionFormValidator.java
+INFO: No findings for: MarshalUtil.java
+INFO: No findings for: RestServiceProxyController.java
+INFO: No findings for: Account.java
+INFO: No findings for: LoanProcessorService.java
+INFO: No findings for: Transaction.java
+INFO: No findings for: Accounts.java
+INFO: Created: 128 issues in: BankManager.java
+INFO: No findings for: AccessModeController.java
+INFO: No findings for: RestResponseEntityExceptionHandler.java
+INFO: No findings for: JmsLoanProcessor.java
+INFO: No findings for: ParaBankServiceImpl.java
+INFO: Created: 68 issues in: ParaBankServiceConstants.java
+INFO: No findings for: TemplateViewResolver.java
+INFO: No findings for: IndexController.java
+INFO: No findings for: JmsLoanProvider.java
+INFO: No findings for: RequestLoanController.java
+INFO: No findings for: RequestLoanFormValidator.java
+INFO: Created: 123 issues in: ConfigurableLoanProvider.java
+INFO: Created: 29 issues in: BankManagerAware.java
+INFO: No findings for: AuthenticationException.java
+INFO: Created: 165 issues in: News.java
+INFO: Created: 20 issues in: DynamicDataInserter.java
+INFO: No findings for: ParaBankBeanPostProcessor.java
+INFO: Created: 26 issues in: NewsDao.java
+INFO: No findings for: AccountsOverviewController.java
+INFO: No findings for: LookupFormValidator.java
+INFO: No findings for: ContactFormValidator.java
+INFO: No findings for: JdbcTransactionDao.java
+INFO: No findings for: AdminManagerImpl.java
+INFO: Created: 29 issues in: IAccessModeControllerAware.java
+INFO: No findings for: WebServiceLoanProvider.java
+INFO: No findings for: ErrorController.java
+INFO: Created: 23 issues in: NewsManager.java
+INFO: No findings for: Position.java
+INFO: Created: 71 issues in: AbstractLoanProcessor.java
+INFO: Created: 33 issues in: LoanProviderNameAware.java
+INFO: No findings for: LogoutController.java
+INFO: Created: 39 issues in: PositionDao.java
+INFO: No findings for: NewsUtil.java
+INFO: Created: 64 issues in: ParaBankServiceException.java
+INFO: Created: 60 issues in: FindTransactionForm.java
+INFO: Created: 30 issues in: AvailableFundsLoanProcessor.java
+INFO: No findings for: AddressValidator.java
+INFO: Created: 73 issues in: TransferForm.java
+INFO: Created: 178 issues in: TransactionCriteria.java
+INFO: No findings for: JdbcPositionDao.java
+INFO: No findings for: CustomRamlGenerator.java
+INFO: No findings for: AccountTypeConverter.java
+INFO: Created: 85 issues in: ContactForm.java
+INFO: Created: 46 issues in: AdminDao.java
+INFO: No findings for: UpdateCustomerController.java
+INFO: No findings for: AdminController.java
+INFO: No findings for: JdbcTransactionQueryRestrictor.java
+INFO: No findings for: BankManagerImpl.java
+INFO: Created: 28 issues in: AccountDao.java
+INFO: Created: 35 issues in: TransactionDao.java
+INFO: No findings for: CustomerLookupController.java
+INFO: Sensor Findings for Parasoft Jtest [parasoft] (done) | time=2262ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=48ms
+INFO: Sensor Java CPD Block Indexer
+INFO: Sensor Java CPD Block Indexer (done) | time=106ms
+INFO: SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+INFO: CPD Executor 35 files had no CPD blocks
+INFO: CPD Executor Calculating CPD for 100 files
+INFO: CPD Executor CPD calculation finished (done) | time=34ms
+INFO: Analysis report generated in 122ms, dir size=1.9 MB
+INFO: Analysis report compressed in 270ms, zip size=548.5 kB
+INFO: Analysis report uploaded in 222ms
+INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://citools.parasoft.com:9000/dashboard?id=parabank
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://citools.parasoft.com:9000/api/ce/task?id=AYLrTwMSnI0ZaCZ9sZaJ
+INFO: Analysis total time: 25.119 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 28.263s
+INFO: Final Memory: 43M/168M
+INFO: ------------------------------------------------------------------------
